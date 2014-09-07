@@ -7,7 +7,7 @@ Bring `ANSI Colors` support to String in `Golo`
 Create a `.bowerrc` file at the root of the project with this content:
 
     {
-      "directory": "libs"
+      "directory": "imports"
     }
 
 Create a `bower.json` file (or update dependencies) at the root of the project with this content:
