@@ -1,6 +1,6 @@
 module AnsiStringAugmentations
 
-augment java.lang.String {
+pimp java.lang.String {
   function prepend = |this, prepend| -> prepend + this
   function append = |this, append| -> this + append
   function ansify = |this, ansiColor| -> this: prepend(ansiColor): append("\u001B[0m")
